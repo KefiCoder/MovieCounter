@@ -18,4 +18,8 @@ const a = prompt('Ваш последний просмотренный филь�
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
+if (a == 10) {
+    alert('Вы пидор');
+    }
+
 console.log(personalMovieDB);
